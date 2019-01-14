@@ -48,6 +48,12 @@
       <groupId>org.jboss.forge.addon</groupId>
       <artifactId>javaee</artifactId>
       <classifier>forge-addon</classifier>
+      <exclusions>
+        <exclusion>
+          <groupId>org.jboss.forge.addon</groupId>
+          <artifactId>javaee-spi</artifactId>
+        </exclusion>
+      </exclusions>
     </dependency>
     <dependency>
       <groupId>org.jboss.forge.furnace</groupId>
